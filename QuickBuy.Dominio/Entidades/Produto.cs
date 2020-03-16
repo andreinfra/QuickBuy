@@ -9,7 +9,10 @@
 
         public override void Validate()
         {
-            throw new System.NotImplementedException();
+            LimparMensagemValidacao();
+
+            if (string.IsNullOrEmpty(Nome))
+                AdicionarCritica("Crítica - Nome não pode deve ser preenchido.");
         }
     }
 }
