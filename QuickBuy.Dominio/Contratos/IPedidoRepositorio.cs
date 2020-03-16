@@ -1,4 +1,4 @@
-﻿]using QuickBuy.Dominio.Entidades;
+﻿using QuickBuy.Dominio.Entidades;
 
 namespace QuickBuy.Dominio.Contratos
 {
