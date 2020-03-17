@@ -14,14 +14,12 @@ namespace QuickBuy.Repositorio.Config
             builder
                 .Property(p => p.Nome)
                 .IsRequired()
-                .HasMaxLength(50)
-                .HasColumnType("varchar");
+                .HasMaxLength(50);
 
             builder
                 .Property(p => p.Descricao)
                 .IsRequired()
-                .HasMaxLength(400)
-                .HasColumnType("varchar");
+                .HasMaxLength(400);
 
             builder
                 .Property(p => p.Preco)

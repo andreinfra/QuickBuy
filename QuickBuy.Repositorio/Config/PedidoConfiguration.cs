@@ -27,20 +27,17 @@ namespace QuickBuy.Repositorio.Config
             builder
                 .Property(p => p.Cidade)
                 .IsRequired()
-                .HasMaxLength(100)
-                .HasColumnType("varchar");
+                .HasMaxLength(100);
 
             builder
                 .Property(p => p.Estado)
                 .IsRequired()
-                .HasMaxLength(100)
-                .HasColumnType("varchar");
+                .HasMaxLength(100);
 
             builder
                 .Property(p => p.EnderecoCompleto)
                 .IsRequired()
-                .HasMaxLength(100)
-                .HasColumnType("varchar");
+                .HasMaxLength(100);
 
             builder
                 .Property(p => p.NumeroEndereco)
